@@ -1,16 +1,39 @@
 {
-    "version": "2.0.0",
-    "tasks": [
+  "version": "2.0.0",
+  "configurations": [
       {
-        "label": "CMake Build",
-        "type": "shell",
-        "command": "cmake --G Ninja",
-        "problemMatcher": [],
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        }
+          "name": "Debug CMake Project",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}\\build\\LEM.exe",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ],
+          "preLaunchTask": "Build with Ninja",
+          "miDebuggerPath": "/usr/bin/gdb",
+          "logging": {
+              "engineLogging": true
+          },
+          "osx": {
+              "MIMode": "lldb"
+          },
+          "linux": {
+              "MIMode": "gdb"
+          },
+          "windows": {
+              "MIMode": "gdb",
+              "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe"
+          }
       }
-    ]
-  }
-  
+  ]
+}

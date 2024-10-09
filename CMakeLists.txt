@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(NoIDA)
+project(LEM)
 
 # Устанавливаем стандарт C++
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_BUILD_TYPE Debug)
 
 # Указываем директории для include
 include_directories(
@@ -20,10 +21,10 @@ file(GLOB_RECURSE SOURCES
 )
 
 # Добавляем флаг WIN32 для указания, что это GUI-приложение
-add_executable(NoIDA WIN32 ${SOURCES})
+add_executable(LEM WIN32 ${SOURCES})
 
 # Добавляем необходимые библиотеки Windows
-target_link_libraries(NoIDA
+target_link_libraries(LEM
     kernel32
     user32
     gdi32

@@ -1,10 +1,14 @@
 # ninja log v6
-5	40	7502014988537187	CMakeFiles/LEM.dir/src/core/debugger/gdb_integration.cpp.obj	9a3a7eb00f75b2aa
-9	47	7502014988567199	CMakeFiles/LEM.dir/src/core/disassembler.cpp.obj	780516257c5bd84a
-11	49	7502014988597194	CMakeFiles/LEM.dir/src/core/loader.cpp.obj	3fa2c6271af8e6b0
-14	52	7502014988617198	CMakeFiles/LEM.dir/src/gui/main_window.cpp.obj	a769ad299094cd78
-16	54	7502014988647196	CMakeFiles/LEM.dir/src/gui/views/disassembly_view.cpp.obj	63725aa860770246
-19	56	7502014988677201	CMakeFiles/LEM.dir/src/gui/views/memory_view.cpp.obj	96098a84bb76ac02
-24	63	7502014988727203	CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj	e3a302576992714e
-22	1391	7502014988697200	CMakeFiles/LEM.dir/src/main.cpp.obj	3f6c8d11634e6327
-1392	1531	7502015002407189	LEM.exe	76a8bc71815e2818
+7	51	7502034645601635	CMakeFiles/LEM.dir/src/core/debugger/gdb_integration.cpp.obj	6199a8b70cbe9830
+9	46	7502034645631639	CMakeFiles/LEM.dir/src/core/disassembler.cpp.obj	1dbedbb2a0012771
+15	52	7502034645681640	CMakeFiles/LEM.dir/src/gui/main_window.cpp.obj	11946f31afd23687
+12	51	7502034645651639	CMakeFiles/LEM.dir/src/core/loader.cpp.obj	6c0a59caadabdcaf
+24	60	7502034645771644	CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj	a92064af4ba5cc49
+22	632	7502034645751645	CMakeFiles/LEM.dir/src/main.cpp.obj	ddae91459324cc58
+18	52	7502034645711646	CMakeFiles/LEM.dir/src/gui/views/disassembly_view.cpp.obj	fa43c0158bd056e
+20	59	7502034645731644	CMakeFiles/LEM.dir/src/gui/views/memory_view.cpp.obj	1475970677d7f03c
+633	690	7502034651859392	LEM.exe	8761b0473883c29b
+11	621	7502038304551137	CMakeFiles/LEM.dir/src/menu.cpp.obj	e17c46fbd74cc14f
+7	606	7502038502788377	CMakeFiles/LEM.dir/src/main.cpp.obj	ddae91459324cc58
+9	609	7502038502818379	CMakeFiles/LEM.dir/src/window.cpp.obj	8637600dc577519e
+609	671	7502038508811126	LEM.exe	4348dff994f1fdcf
