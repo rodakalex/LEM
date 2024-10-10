@@ -70,36 +70,22 @@ build CMakeFiles/LEM.dir/src/core/loader.cpp.obj: CXX_COMPILER__LEM_unscanned_De
   OBJECT_DIR = CMakeFiles\LEM.dir
   OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\core
 
-build CMakeFiles/LEM.dir/src/gui/main_window.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/gui/main_window.cpp || cmake_object_order_depends_target_LEM
-  DEP_FILE = CMakeFiles\LEM.dir\src\gui\main_window.cpp.obj.d
+build CMakeFiles/LEM.dir/src/gui/menu.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/gui/menu.cpp || cmake_object_order_depends_target_LEM
+  DEP_FILE = CMakeFiles\LEM.dir\src\gui\menu.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
   OBJECT_DIR = CMakeFiles\LEM.dir
   OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\gui
 
-build CMakeFiles/LEM.dir/src/gui/views/disassembly_view.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/gui/views/disassembly_view.cpp || cmake_object_order_depends_target_LEM
-  DEP_FILE = CMakeFiles\LEM.dir\src\gui\views\disassembly_view.cpp.obj.d
+build CMakeFiles/LEM.dir/src/gui/window.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/gui/window.cpp || cmake_object_order_depends_target_LEM
+  DEP_FILE = CMakeFiles\LEM.dir\src\gui\window.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
   OBJECT_DIR = CMakeFiles\LEM.dir
-  OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\gui\views
-
-build CMakeFiles/LEM.dir/src/gui/views/memory_view.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/gui/views/memory_view.cpp || cmake_object_order_depends_target_LEM
-  DEP_FILE = CMakeFiles\LEM.dir\src\gui\views\memory_view.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
-  OBJECT_DIR = CMakeFiles\LEM.dir
-  OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\gui\views
+  OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\gui
 
 build CMakeFiles/LEM.dir/src/main.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/main.cpp || cmake_object_order_depends_target_LEM
   DEP_FILE = CMakeFiles\LEM.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
-  OBJECT_DIR = CMakeFiles\LEM.dir
-  OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src
-
-build CMakeFiles/LEM.dir/src/menu.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/menu.cpp || cmake_object_order_depends_target_LEM
-  DEP_FILE = CMakeFiles\LEM.dir\src\menu.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
   OBJECT_DIR = CMakeFiles\LEM.dir
@@ -112,13 +98,6 @@ build CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj: CXX_COMPILER__LEM_u
   OBJECT_DIR = CMakeFiles\LEM.dir
   OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src\plugins
 
-build CMakeFiles/LEM.dir/src/window.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C$:/Users/abstract/Documents/LEM/src/window.cpp || cmake_object_order_depends_target_LEM
-  DEP_FILE = CMakeFiles\LEM.dir\src\window.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -IC:/Users/abstract/Documents/LEM/include -IC:/Users/abstract/Documents/LEM/third_party/capstone/include -IC:/Users/abstract/Documents/LEM/third_party/keystone/include -IC:/Users/abstract/Documents/LEM/third_party/zydis/include
-  OBJECT_DIR = CMakeFiles\LEM.dir
-  OBJECT_FILE_DIR = CMakeFiles\LEM.dir\src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LEM
@@ -127,7 +106,7 @@ build CMakeFiles/LEM.dir/src/window.cpp.obj: CXX_COMPILER__LEM_unscanned_Debug C
 #############################################
 # Link the executable LEM.exe
 
-build LEM.exe: CXX_EXECUTABLE_LINKER__LEM_Debug CMakeFiles/LEM.dir/src/core/debugger/gdb_integration.cpp.obj CMakeFiles/LEM.dir/src/core/disassembler.cpp.obj CMakeFiles/LEM.dir/src/core/loader.cpp.obj CMakeFiles/LEM.dir/src/gui/main_window.cpp.obj CMakeFiles/LEM.dir/src/gui/views/disassembly_view.cpp.obj CMakeFiles/LEM.dir/src/gui/views/memory_view.cpp.obj CMakeFiles/LEM.dir/src/main.cpp.obj CMakeFiles/LEM.dir/src/menu.cpp.obj CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj CMakeFiles/LEM.dir/src/window.cpp.obj
+build LEM.exe: CXX_EXECUTABLE_LINKER__LEM_Debug CMakeFiles/LEM.dir/src/core/debugger/gdb_integration.cpp.obj CMakeFiles/LEM.dir/src/core/disassembler.cpp.obj CMakeFiles/LEM.dir/src/core/loader.cpp.obj CMakeFiles/LEM.dir/src/gui/menu.cpp.obj CMakeFiles/LEM.dir/src/gui/window.cpp.obj CMakeFiles/LEM.dir/src/main.cpp.obj CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -lkernel32  -luser32  -lgdi32  -lwinspool  -lshell32  -lole32  -loleaut32  -luuid  -lcomdlg32  -ladvapi32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

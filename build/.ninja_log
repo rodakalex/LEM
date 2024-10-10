@@ -4,11 +4,13 @@
 15	52	7502034645681640	CMakeFiles/LEM.dir/src/gui/main_window.cpp.obj	11946f31afd23687
 12	51	7502034645651639	CMakeFiles/LEM.dir/src/core/loader.cpp.obj	6c0a59caadabdcaf
 24	60	7502034645771644	CMakeFiles/LEM.dir/src/plugins/plugin_manager.cpp.obj	a92064af4ba5cc49
-22	632	7502034645751645	CMakeFiles/LEM.dir/src/main.cpp.obj	ddae91459324cc58
+12	617	7502266250446075	CMakeFiles/LEM.dir/src/main.cpp.obj	ddae91459324cc58
 18	52	7502034645711646	CMakeFiles/LEM.dir/src/gui/views/disassembly_view.cpp.obj	fa43c0158bd056e
 20	59	7502034645731644	CMakeFiles/LEM.dir/src/gui/views/memory_view.cpp.obj	1475970677d7f03c
-633	690	7502034651859392	LEM.exe	8761b0473883c29b
+609	664	7502267676042999	LEM.exe	9f7c4de7ec784e02
 11	621	7502038304551137	CMakeFiles/LEM.dir/src/menu.cpp.obj	e17c46fbd74cc14f
-7	606	7502038502788377	CMakeFiles/LEM.dir/src/main.cpp.obj	ddae91459324cc58
 9	609	7502038502818379	CMakeFiles/LEM.dir/src/window.cpp.obj	8637600dc577519e
-609	671	7502038508811126	LEM.exe	4348dff994f1fdcf
+9	608	7502267670056808	CMakeFiles/LEM.dir/src/gui/menu.cpp.obj	96e1d57805d39434
+11	656	7502220488614271	CMakeFiles/LEM.dir/src/gui/window.cpp.obj	4bbd38526665408d
+10	608	7502270756667569	CMakeFiles/LEM.dir/src/gui/menu.cpp.obj	96e1d57805d39434
+608	657	7502270762648847	LEM.exe	9f7c4de7ec784e02
